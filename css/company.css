@@ -441,7 +441,7 @@
     }
 }
 
-/* Página de Services */
+/* Página de companhia */
 
 .detalhes p {
     padding-right: 4em;
@@ -466,5 +466,17 @@ a:hover {
     text-decoration: underline;
 }
 
+.detalhes h4{
+    padding-right: 4em;
+    padding-left: 4em;
+}
+
+
+#finy p:last-child {
+    margin-bottom: 2em;
+    font-size: x-large;
+}
+
+    
 
 
