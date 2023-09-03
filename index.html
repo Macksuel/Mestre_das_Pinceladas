@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mestre das Pinceladas</title>
+    <!--CSS-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!--ICONS-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <!--Style-->
+    <style>
+        /* Oculta as setas em campos de input do tipo "number" */
+        input[type="number"]::-webkit-inner-spin-button,
+        input[type="number"]::-webkit-outer-spin-button {
+            -webkit-appearance: none;
+            appearance: none;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header id="event-description">
+        <div id="disclaimer">
+            <a class="logo" href="../index.html">
+                <img src="../img/logo1.png" alt="Logotipo da empresa">
+            </a> 
+            <p class="about-event">
+                Um pintor é um artista que cria arte usando tintas e cores. <br>
+                Eles usam pincéis e telas para expressar ideias e emoções visualmente.
+            </p>
+        </div>
+        <div id="subscription-form">
+            <p>Preencha o formulário para receber os detalhes do evento</p>
+            <form action="">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" placeholder="Digite seu nome">
+                </div>
+                <div class="form-group">
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" placeholder="Digite seu melhor e-mail">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefone</label>
+                    <input type="number" name="phone" oninput="if (this.value.length > 11) this.value = this.value.slice(0,11);" placeholder="Número de Whatsapp">
+                </div>
+                <div class="form-group">
+                    <label for="interest">Principal Interesse</label>
+                    <select name="interest" id="">
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="Casa">Casa</option>
+                        <option value="Apartamento">Apartamento</option>
+                        <option value="Escritorio">Escritório</option>
+                        <option value="Outros">Geral</option>
+                    </select>
+                </div>
+                <input type="submit" class="btn btn-primary" value="Quero me inscrever">
+            </form>
+        </div>
+    </header>
+    <section id="key-benefits">
+        <h2>Nosso objetivo é oferecer aos nossos clientes um serviço de qualidade, com preços justos e prazos de entrega flexíveis.</h2>
+        <div class="benefits">
+            <div class="benefit">
+                <a href="../company.html">
+                    <div id="benefit-1" class="benefit-img"></div>
+                    <p>Empresa</p>
+                </a>
+            </div>
+            <div class="benefit">
+                <a href="../services.html">
+                    <div id="benefit-2" class="benefit-img"></div>
+                    <p>Serviços</p>
+                </a>
+            </div>
+            <div class="benefit">
+                <a href="../index.html">
+                    <div id="benefit-3" class="benefit-img"></div>
+                    <p>Contato</p>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="location">
+        <div id="address">
+            <i class="bi bi-geo-alt-fill"></i>
+            <div id="address-details">
+                <p>R. Santa Cruz, 1148</p>
+                <p>Bairro Alto</p>
+                <p>Piracicaba - SP, 13419-030</p>
+            </div>
+        </div>
+        <div id="about-location">
+            <h3>Minha Companhia</h3>
+            <p>
+                A companhia mestre das pinceladas é um local prestigiado pelos amantes de Design de Interiores, onde teremos prototipos de vários ambientes de pinturas tanto internas como externas, para a sua casa ou empresa.
+            </p>
+        </div>
+    </section>
+    <section id="details">
+        <div class="detail" id="detail-1">
+            <img src="img/19.jpg" alt="Pintura decorativa">
+            <div class="detail-description">
+                <h3>Conheça os ambientes que você vai aprender a decorar.</h3>
+            </div>
+        </div>
+        <div class="detail" id="detail-2">            
+            <div class="detail-description">
+                <h3>Detalhes</h3>
+                <ul>
+                    <li>Posicionamento</li>
+                    <li>Aproveitamento de espaço</li>
+                    <li>Combinações de cores</li>
+                    <li>Organização</li>
+                    <li>E muito mais...</li>
+                </ul>
+            </div>
+            <img src="img/15.jpg" alt="pintando com o pincel a cores">
+        </div>
+        <div class="detail" id="detail-3">
+            <img src="img/marrom.png" alt="pintando com o pincel a cores">         
+            <div class="detail-description">
+                <h3>Objetos</h3>
+                <ul>
+                    <li>Cadeiras</li>
+                    <li>Mesas</li>
+                    <li>Espelhos</li>
+                    <li>Plantas</li>
+                    <li>E muito mais...</li>
+                </ul>
+            </div>            
+        </div>
+    </section>
+    <section id="cta">
+        <h3>Gostou? Solicite já o ser Orçamento:</h3>
+        <button class="btn"><a href="../index.html">Solicitar Orçamento</a></button>
+    </section>
+    <footer id="footer">
+        <h3>Mestre das Pinceladas</h3>
+        <p>A evolução da decoração de interiores e seus projetos</p>
+        <p><span>Entre em contato:</span> contato@pinceladas.com.br <i class="bi bi-envelope-at"></i></p>
+        <p><span>Ou pelo telefone:</span> (19)98724-3211 <i class="bi bi-whatsapp"></i></p>
+    </footer>
+</body>
+</html>
