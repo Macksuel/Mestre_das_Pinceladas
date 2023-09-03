@@ -98,6 +98,23 @@
     opacity: 1;
 }
 
+.btn-principal {
+    background-color: #ffffff;
+    color: #0b027b;
+    text-transform: uppercase;
+    width: 30%;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    opacity: 0.8;
+    margin-top: 1em;
+    font-weight: 700;
+}
+
+.btn-principal:hover{
+    opacity: 1;
+}
+
 /* benefits section */
 
 #key-benefits h2 {
@@ -465,6 +482,8 @@ a:hover {
     color: blue;
     text-decoration: underline;
 }
+
+
 
 
 

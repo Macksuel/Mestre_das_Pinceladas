@@ -98,6 +98,23 @@
     opacity: 1;
 }
 
+.btn-principal {
+    background-color: #ffffff;
+    color: #0b027b;
+    text-transform: uppercase;
+    width: 30%;
+    border: none;
+    padding: 12px;
+    cursor: pointer;
+    opacity: 0.8;
+    margin-top: 1em;
+    font-weight: 700;
+}
+
+.btn-principal:hover{
+    opacity: 1;
+}
+
 /* benefits section */
 
 #key-benefits h2 {
@@ -314,6 +331,14 @@
         margin-left: -1.5em;
         cursor: pointer;
     }
+
+    .detalhes ul {
+        width: 100%;
+        padding-left: 6em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        line-height: 2em;
+    }
    
 }
 
@@ -322,6 +347,14 @@
 
     .btn {
         opacity: 1;
+    }
+
+    .detalhes ul {
+        width: 100%;
+        padding-left: 5em;
+        padding-top: 2em;
+        padding-bottom: 2em;
+        line-height: 2em;
     }
 
     #disclaimer .about-event {
@@ -446,14 +479,6 @@
 .detalhes p {
     padding-right: 4em;
     padding-left: 4em;
- }
-
-.detalhes ul {
-    width: 100%;
-    padding-left: 6em;
-    padding-top: 2em;
-    padding-bottom: 2em;
-    line-height: 2em;
 }
 
 a {
@@ -469,12 +494,18 @@ a:hover {
 .detalhes h4{
     padding-right: 4em;
     padding-left: 4em;
+    padding-bottom: 1em;
+    padding-top: 1em;
 }
 
 
 #finy p:last-child {
     margin-bottom: 2em;
     font-size: x-large;
+}
+
+.detalhes ul li span {
+    font-weight: bold;
 }
 
     

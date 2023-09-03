@@ -36,9 +36,8 @@
 }
 
 #disclaimer .about-event {
-    font-size: 2em;
     text-transform: uppercase;
-    max-width: 350px;
+    max-width: 400px;
     font-weight: bold;
     margin-bottom: 1em;
 }
@@ -317,18 +316,18 @@
         justify-content: space-around;
         align-items: center;
         color: var(--text-color);
+        padding-left: 10em;
     }
     #subscription-form {
-        background-color: #9fd9ff;
+        background-color: var(--segundary);
         padding: 2em;
-        max-width: 36%;
+        max-width: 40%;
         border-radius: 2em;
     }
 
     #disclaimer img {
         width: 64%;
-        padding-bottom: 4em;
-        margin-left: -1.5em;
+        padding-bottom: 2em;
         cursor: pointer;
     }
    
@@ -361,6 +360,7 @@
     #event-description {
         flex-direction: column;
         height: auto;
+        padding-left: 0em;
     }
 
     #disclaimer {
@@ -482,6 +482,8 @@ a:hover {
     color: blue;
     text-decoration: underline;
 }
+
+
 
 
 
