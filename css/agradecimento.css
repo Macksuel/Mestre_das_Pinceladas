@@ -359,7 +359,6 @@
     /* Event Form */
     #event-description {
         flex-direction: column;
-        height: 100%;
         padding-left: 0em;
     }
 
